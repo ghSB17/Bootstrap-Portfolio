@@ -1,0 +1,58 @@
+/* font-family: 'Paprika', cursive;
+font-family: 'Ribeye', cursive;
+font-family: 'Sansita', sans-serif; */
+
+.navStyle {
+    
+}
+.bgBlueGray {
+    background: linear-gradient(#bdbdbd, lightblue);
+}
+.imgAboutMe {
+    width: 75%;
+}
+.fontBrand {
+    font-family: "Paprika";
+    font-size: xx-large;
+    font-weight: bolder;
+}
+.cntrSocial {
+    width: 35%;
+}
+.cntrMain {
+    width:55%;
+}
+.imgSocial {
+    width: 40px;
+    height: 40px;
+}
+p { 
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, 'sans-serif';
+}
+.fontPB, .fontP, a {
+    font-family:'Paprika','Ribeye','Sansita',  'sans-serif';
+    color: black;
+} 
+.fontPB {
+    font-size: xx-large;
+    font-weight:bolder;
+}
+@media screen and (max-width:980px) {
+
+    .imgAboutMe {
+        width: 75%;
+    }
+}
+@media screen and (max-width:768px) {
+    .imgAboutMe {
+        width: 100%;
+    }
+}
+@media screen and (max-width:640px) {
+    .imgAboutMe {
+        width: 100%;
+    }
+    .fontP {
+        display: inline;
+    }
+}
