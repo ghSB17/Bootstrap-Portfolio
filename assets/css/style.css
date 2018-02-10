@@ -1,3 +1,27 @@
+body {
+    background-color: lightgray; 
+    animation: mymove 5s infinite;
+    animation-direction: alternate;
+}
+@-webkit-keyframes mymove {
+
+    0%   {background-color: #EAEDED;}
+    20%  {background-color: #A2D9CE;}
+    40%  {background-color: #A9CCE3;}
+    60%  {background-color: #76D7C4;}
+    80%  {background-color: #7FB3D5;}
+    100% {background-color: #5DADE2;}
+}
+
+@keyframes mymove {
+    0%   {background-color: #EAEDED;}
+    20%  {background-color: #A2D9CE;}
+    40%  {background-color: #A9CCE3;}
+    60%  {background-color: #76D7C4;}
+    80%  {background-color: #7FB3D5;}
+    100% {background-color: #5DADE2;}
+}
+
 p { 
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, 'sans-serif';
 }
