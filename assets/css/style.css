@@ -2,6 +2,7 @@ body {
     background-color: lightgray; 
     animation: mymove 5s infinite;
     animation-direction: alternate;
+    height: 100%;
 }
 @-webkit-keyframes mymove {
 
@@ -64,11 +65,18 @@ p {
     text-align: center;
     opacity: .5;
 }
-
+@media screen and ( min-width:981px){
+    .lg-footer {
+        margin-top: 27%;
+    }
+}
 @media screen and (max-width:980px) {
 
     .imgAboutMe {
         width: 75%;
+    }
+    .lg-footer {
+        margin-top: 27%;
     }
 }
 @media screen and (max-width:768px) {
