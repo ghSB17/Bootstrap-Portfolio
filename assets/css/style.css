@@ -6,20 +6,19 @@ body {
 @-webkit-keyframes mymove {
 
     0%   {background-color: #EAEDED;}
-    20%  {background-color: #A2D9CE;}
-    40%  {background-color: #A9CCE3;}
-    60%  {background-color: #76D7C4;}
-    80%  {background-color: #7FB3D5;}
-    100% {background-color: #5DADE2;}
+    100%  {background-color: #A9CCE3;}
+    /* 100% {background-color: #7FB3D5;} */
 }
 
 @keyframes mymove {
-    0%   {background-color: #EAEDED;}
-    20%  {background-color: #A2D9CE;}
+    /* 0%   {background-color: #EAEDED;} */
+    /* 20%  {background-color: #A2D9CE;}
     40%  {background-color: #A9CCE3;}
     60%  {background-color: #76D7C4;}
-    80%  {background-color: #7FB3D5;}
-    100% {background-color: #5DADE2;}
+     */
+     0%   {background-color: #EAEDED;}
+     100%  {background-color: #A9CCE3;}
+     /* 100% {background-color: #7FB3D5;} */
 }
 
 p { 
@@ -35,6 +34,9 @@ p {
 }
 .bgBlueGray {
     background: linear-gradient(#bdbdbd, lightblue);
+}
+.bgGrayBlue{
+    background: linear-gradient(lightblue, #bdbdbd);
 }
 .imgAboutMe {
     width: 75%;
