@@ -7,20 +7,17 @@ body {
 @-webkit-keyframes mymove {
 
     0%   {background-color: #EAEDED;}
-    /* 20%  {background-color: #A2D9CE;} */
     50%  {background-color: #A9CCE3;}
-    /* 60%  {background-color: #76D7C4;} */
     100%  {background-color: #7FB3D5;}
-    /* 100% {background-color: #5DADE2;} */
+    
 }
 
 @keyframes mymove {
+
     0%   {background-color: #EAEDED;}
-    /* 20%  {background-color: #A2D9CE;} */
     50%  {background-color: #A9CCE3;}
-    /* 60%  {background-color: #76D7C4;} */
     100%  {background-color: #7FB3D5;}
-    /* 100% {background-color: #5DADE2;} */
+    
 }
 
 p { 
@@ -65,18 +62,10 @@ p {
     text-align: center;
     opacity: .5;
 }
-@media screen and ( min-width:981px){
-    .lg-footer {
-        margin-top: 27%;
-    }
-}
-@media screen and (max-width:980px) {
 
+@media screen and (max-width:980px) {
     .imgAboutMe {
         width: 75%;
-    }
-    .lg-footer {
-        margin-top: 27%;
     }
 }
 @media screen and (max-width:768px) {
