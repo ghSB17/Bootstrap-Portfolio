@@ -62,6 +62,20 @@ p {
     text-align: center;
     opacity: .5;
 }
+.classInfo {
+    position: absolute;
+    color: white;
+    display: none;
+    font-weight: bolder;
+    font-size: 150%;
+    text-align: center;
+    margin: 10%;
+    opacity: .7;
+    padding-top: 25%;
+    width: 80%;
+    height: 80%;
+    background-color:#C0C0C0;
+}
 
 @media screen and (max-width:980px) {
     .imgAboutMe {
