@@ -64,7 +64,8 @@ p {
 }
 .classInfo {
     position: absolute;
-    color: white;
+    font-family:'Paprika','Ribeye','Sansita',  'sans-serif';
+    color: black;
     display: none;
     font-weight: bolder;
     font-size: 150%;
@@ -74,7 +75,7 @@ p {
     padding-top: 25%;
     width: 80%;
     height: 80%;
-    background-color:#C0C0C0;
+    background: linear-gradient(lightblue, #bdbdbd);
 }
 
 @media screen and (max-width:980px) {
