@@ -34,19 +34,20 @@
         <div class= "mt-3 col-lg-9 col-md-12 col-sm-12 border rounded bgBlueGray">
             <div class="container text-dark h2 border-bottom mt-3 pb-1 fontP" >Contact</div>
                    
-            <form class="mt-3">
+            <form class="mt-3" action="https://formspree.io/your@email.com"
+            method="POST">
                 <div class="container form-group mt-3">
                   <label for="fullname">Name:</label>
-                  <input type="text" class="form-control mb-4" placeholder="LastName FirstName">
+                  <input type="text" name="full name" class="form-control mb-4" placeholder="LastName FirstName" required>
                   
                   <label for="emailaddr">Email address:</label>
-                  <input type="email" class="form-control mb-4" placeholder="example@email.com">
+                  <input type="email" name="_replyto" class="form-control mb-4" placeholder="example@email.com" required>
                     
                   <label for="txtmessage">Message:</label>
-                  <textarea rows="15" cols="85" class="form-control mb-3">Enter your text message here...</textarea>
+                  <textarea name="message" rows="15" cols="85" class="form-control mb-3" required>Enter your text message here...</textarea>
                 </div>
                 
-                <button type="submit" class="ml-3 btn btn-primary mb-3">Submit</button>
+                <button type="submit" value="Send" class="ml-3 btn btn-primary mb-3">Submit</button>
               </form>
         
         </div> <!-- End of Contact Container--> 
@@ -64,7 +65,7 @@
                 <img src="./assets/images/stackoverflow.png" class="imgSocial rounded" alt="StackOverflow">
             </div>
           </div>
-        </div> <!-- End of Social COntainer-->
+        </div> <!-- End of Social C0ntainer-->
 
       </div> <!-- End of row including About me and Social Containers-->
 
