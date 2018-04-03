@@ -23,6 +23,11 @@ body {
 p { 
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, 'sans-serif';
 }
+
+.vw2 {
+    font-family:'Paprika','Ribeye','Sansita',  'sans-serif';
+    font-size: 1.5vw;
+}
 .fontPB, .fontP, a {
     font-family:'Paprika','Ribeye','Sansita',  'sans-serif';
     color: black;
@@ -38,7 +43,7 @@ p {
     background: linear-gradient(lightblue, #bdbdbd);
 }
 .imgAboutMe {
-    width: 75%;
+    width: 70%;
 }
 .imgPortfolio {
     width: 90%;
