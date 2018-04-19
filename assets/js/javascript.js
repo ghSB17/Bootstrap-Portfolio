@@ -3,7 +3,7 @@ $(document).ready(function() {
         $(".imgPortfolio").on( "mouseenter", function(event){
             
                 // $(this).children(".classInfo").show(3000);
-        $(this).children(".classInfo").slideDown(1500);
+        $(this).children(".classInfo").slideDown(500);
         });
 
         $(".imgPortfolio").mouseleave(function hoverFunction(event){
