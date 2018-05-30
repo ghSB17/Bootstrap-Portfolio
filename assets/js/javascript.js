@@ -12,4 +12,16 @@ $(document).ready(function() {
             $(this).children(".classInfo").slideUp(300);
         });
 
+        $(".imgSocial").on("click", function(event){
+                var imgAlt = $(this).attr("alt");
+                
+                switch(imgAlt){
+                        case "GitHub":
+                                        window.open("https://github.com/ghSB17?tab=repositories")
+                                        break;
+                        case "LinkedIn":
+                                        window.open("https://www.linkedin.com/in/sumathiganjam/")
+                                        break;
+                }
+        })
 });
