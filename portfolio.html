@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,9 +8,9 @@
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Paprika|Ribeye|Sansita:400,400i,700,800,900" rel="stylesheet">
     <!-- Bootstrap -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" >
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <!-- Custom Style Sheet-->
-    <link rel="stylesheet" href="./assets/css/style.css" >
+    <link rel="stylesheet" href="./assets/css/style.css">
     <!-- JQuery and JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="./assets/js/javascript.js"></script>
@@ -32,142 +33,174 @@
     <!-- <div class="container-fluid"> -->
     <div class="container">
         <!--Row including AboutMe content and Social -->
-      <div class="row" style="margin-bottom:3%">
-        <!-- Image and About me content -->
-        <div class= "mt-3 col-lg-9 col-md-12 col-sm-12 border rounded bgBlueGray" >
-            <div class="container text-dark h2 border-bottom mt-3 pb-1 mb-3 fontP" >Portfolio</div>
-                   
-            <div class="container mt-3">
-                <div class="row">
-                    <div class="col-sm-6">
-                            <div class="card imgPortfolio" onClick="parent.location='https://ghsb17.github.io/Hangman-Game/'" >
+        <div class="row" style="margin-bottom:3%">
+            <!-- Image and About me content -->
+            <div class="mt-3 col-lg-9 col-md-12 col-sm-12 border rounded bgBlueGray">
+                <div class="container text-dark h2 border-bottom mt-3 pb-1 mb-3 fontP">Portfolio</div>
+
+                <div class="container mt-3">
+                        <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="card imgPortfolio" onClick="parent.location='https://stormy-eyrie-62644.herokuapp.com/'">
+                                        <img class="card-img" src="./assets/images/community.jpg" alt="COMMUNITYAPP" style="height:100%">
+                                        <div class="card-img-overlay pt-3 pb-3 pl-0 pr-0 posY65">
+                                            <p class="card-text h6 transbox">COMMUNITY CONNECTOR</p>
+                                        </div>
+                                        <div class="classInfo">
+                                            <p>Click Here to COMMUNITY APP!
+                                                <br> React, Redux, JS
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="card imgPortfolio" onClick="parent.location='https://dry-reef-81096.herokuapp.com/'">
+                                        <img class="card-img" src="./assets/images/facility-picture.jpg" alt="GIPHY APIs" style="height:100%">
+                                        <div class="card-img-overlay pt-3 pb-3 pl-0 pr-0 posY65">
+                                            <p class="card-text h6 transbox">JSJ SWIM</p>
+                                        </div>
+                                        <div class="classInfo">
+                                            <p>Click Here to Visit JSJSwim!
+                                                <br> Foundation, JS, Node, Express
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="card imgPortfolio" onClick="parent.location='https://ghsb17.github.io/Hangman-Game/'">
                                 <img class="card-img" src="./assets/images/portfolioHM.jpg" alt="HANGMAN">
-                                <div class="card-img-overlay pt-3 pb-3 pl-0 pr-0 posY65" >
-                                        <p class="card-text h6 transbox">HANGMAN</p>
+                                <div class="card-img-overlay pt-3 pb-3 pl-0 pr-0 posY65">
+                                    <p class="card-text h6 transbox">HANGMAN</p>
                                 </div>
                                 <div class="classInfo">
-                                    <p>Click Here to Play Hangman! 
-                                        <br> JS 
+                                    <p>Click Here to Play Hangman!
+                                        <br> HTML, CSS, JS
                                     </p>
                                 </div>
                             </div>
-                    </div>
-                    <div class="col-sm-6">
-                        <div class="card imgPortfolio" onClick="parent.location='https://ghsb17.github.io/GIPHY-API/'" >
-                            <img class="card-img" src="https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif" 
-                            alt="GIPHY APIs" style="height:100%">
-                            <div class="card-img-overlay pt-3 pb-3 pl-0 pr-0 posY65" >
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="card imgPortfolio" onClick="parent.location='https://ghsb17.github.io/GIPHY-API/'">
+                                <img class="card-img" src="https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif" alt="GIPHY APIs" style="height:100%">
+                                <div class="card-img-overlay pt-3 pb-3 pl-0 pr-0 posY65">
                                     <p class="card-text h6 transbox">GIPHY API</p>
-                            </div>
-                            <div class="classInfo">
-                                <p>Click Here to see more GIPHYs!
-                                    <br> JS, JQuery, AJAX, GIPHY-API
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm-6">
-                        <div class="card imgPortfolio" onClick="parent.location='https://ghsb17.github.io/Advanced-Trivia-Game/'">
-                            <img class="card-img" src="./assets/images/portfolioTRIVIA.jpg" alt="TRIVIA">
-                            <div class="card-img-overlay pt-3 pb-3 pl-0 pr-0 posY65" >
-                                <p class="card-text h6 transbox">TRIVIA</p>
-                            </div>
-                            <div class="classInfo">
-                                <p>Click Here to play NJ Trivia!
-                                    <br> JS, Async Functions
-                                </p>
+                                </div>
+                                <div class="classInfo">
+                                    <p>Click Here to see more GIPHYs!
+                                        <br> JS, JQuery, AJAX, GIPHY-API
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-6">
-                        <div class="card imgPortfolio" onClick="parent.location='https://ghsb17.github.io/Crystal-Collector/'">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="card imgPortfolio" onClick="parent.location='https://ghsb17.github.io/Advanced-Trivia-Game/'">
+                                <img class="card-img" src="./assets/images/portfolioTRIVIA.jpg" alt="TRIVIA">
+                                <div class="card-img-overlay pt-3 pb-3 pl-0 pr-0 posY65">
+                                    <p class="card-text h6 transbox">TRIVIA</p>
+                                </div>
+                                <div class="classInfo">
+                                    <p>Click Here to play NJ Trivia!
+                                        <br> JS, Async Functions
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="card imgPortfolio" onClick="parent.location='https://ghsb17.github.io/Crystal-Collector/'">
                                 <img class="card-img" src="./assets/images/portfolioCrystalC.jpg" alt="CRYSTALCOLLECTOR">
-                                    <div class="card-img-overlay pt-3 pb-3 pl-0 pr-0 posY65" >
-                                            <p class="card-text h6 transbox">CRYSTAL COLLECTOR</p>
-                                    </div>
-                                    <div class="classInfo">
-                                        <p>Click Here to play the game!
-                                            <br> JS, JQuery
-                                        </p>
-                                    </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm-6">
-                        <div class="card imgPortfolio" onClick="parent.location='https://ghsb17.github.io/RPG-StarWars/'">
-                        <img class="card-img" src="./assets/images/portfolioRPG.jpg" alt="RPG GAME">
-                            <div class="card-img-overlay pt-3 pb-3 pl-0 pr-0 posY65" >
-                                    <p class="card-text h6 transbox">RPG GAME</p>
-                            </div>
-                            <div class="classInfo">
-                                <p>Click Here to play the game!
-                                    <br> JS, JQuery
-                                </p>
+                                <div class="card-img-overlay pt-3 pb-3 pl-0 pr-0 posY65">
+                                    <p class="card-text h6 transbox">CRYSTAL COLLECTOR</p>
+                                </div>
+                                <div class="classInfo">
+                                    <p>Click Here to play the game!
+                                        <br> JS, JQuery
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-6">
-                        <div class="card imgPortfolio" onClick="parent.location='https://ghsb17.github.io/Train-Time/'">
-                                <img class="card-img" src="./assets/images/portfolioTrainTime.jpeg" alt="Train Time"> 
-                                <div class="card-img-overlay pt-3 pb-3 pl-0 pr-0 posY65" >
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="card imgPortfolio" onClick="parent.location='https://github.com/ghSB17/LIRI'">
+                                <img class="card-img" src="./assets/images/liri.png" alt="LIRI">
+                                <div class="card-img-overlay pt-3 pb-3 pl-0 pr-0 posY65">
+                                    <p class="card-text h6 transbox">LIRI </p>
+                                </div>
+                                <div class="classInfo">
+                                    <p>Click Here to use LIRI
+                                        <br> JS, Node.js, API </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6">
+                            <div class="card imgPortfolio" onClick="parent.location='https://ghsb17.github.io/Train-Time/'">
+                                <img class="card-img" src="./assets/images/portfolioTrainTime.jpeg" alt="Train Time">
+                                <div class="card-img-overlay pt-3 pb-3 pl-0 pr-0 posY65">
                                     <p class="card-text h6 transbox">TRAIN SCHEDULE</p>
                                 </div>
                                 <div class="classInfo">
-                                    <p>Click here to View Train Schedule <br>
-                                        JS, Firebase, Moment.js </p>
+                                    <p>Click here to View Train Schedule
+                                        <br> JS, Firebase, Moment.js </p>
                                 </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm-6">
-                            <div class="card imgPortfolio" onClick="parent.location='https://github.com/ghSB17/LIRI'">
-                                    <img class="card-img" src="./assets/images/liri.png" alt="LIRI">
-                                    <div class="card-img-overlay pt-3 pb-3 pl-0 pr-0 posY65" >
-                                            <p class="card-text h6 transbox">LIRI </p>
-                                    </div>
-                                    <div class="classInfo">
-                                        <p>Click Here to use LIRI<br>
-                                        JS, Node.js, API </p>
-                                    </div>
+                    <!-- <div class="row">
+                        <div class="col-sm-6">
+                            <div class="card imgPortfolio" onClick="parent.location='https://ghsb17.github.io/RPG-StarWars/'">
+                                <img class="card-img" src="./assets/images/portfolioRPG.jpg" alt="RPG GAME">
+                                <div class="card-img-overlay pt-3 pb-3 pl-0 pr-0 posY65">
+                                    <p class="card-text h6 transbox">RPG GAME</p>
                                 </div>
-                    </div>
-                    <div class="col-sm-6">
-                        <!-- Empty Column -->
+                                <div class="classInfo">
+                                    <p>Click Here to play the game!
+                                        <br> JS, JQuery
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6"> -->
+                            <!-- Empty Column -->
+                        <!-- </div>
+                    </div>  -->
+                </div>
+            </div>
+            <!-- End of AboutMe content and Image-->
+
+            <!-- Social container with github, linkedin and stackoverflow images -->
+            <div class="col-lg-3 col-md-12 col-sm-12 mt-3">
+                <!-- Social Container in a card-->
+                <div class="card rounded bgBlueGray">
+                    <!-- Header of Social Container-->
+                    <div class="text-dark border-bottom mb-3 mt-1 text-center h6 fontP">Connect with me</div>
+                    <!-- Images of Social Container -->
+                    <div class="pb-4 row justify-content-center">
+                        <img src="./assets/images/github.png" class="imgSocial rounded" alt="GitHub">
+                        <img src="./assets/images/linkedin.png" class="imgSocial rounded" alt="LinkedIn">
+                        <img src="./assets/images/stackoverflow.png" class="imgSocial rounded" alt="StackOverflow">
                     </div>
                 </div>
             </div>
+            <!-- End of Social COntainer-->
+
         </div>
-        <!-- End of AboutMe content and Image--> 
+        <!-- End of row including About me and Social Containers-->
 
-        <!-- Social container with github, linkedin and stackoverflow images -->
-        <div class="col-lg-3 col-md-12 col-sm-12 mt-3">
-            <!-- Social Container in a card-->
-          <div class= "card rounded bgBlueGray">
-              <!-- Header of Social Container-->
-            <div class="text-dark border-bottom mb-3 mt-1 text-center h6 fontP">Connect with me</div>
-            <!-- Images of Social Container -->
-            <div class="pb-4 row justify-content-center">
-                <img src="./assets/images/github.png" class="imgSocial rounded" alt="GitHub">
-                <img src="./assets/images/linkedin.png" class="imgSocial rounded" alt="LinkedIn">
-                <img src="./assets/images/stackoverflow.png" class="imgSocial rounded" alt="StackOverflow">
-            </div>
-          </div>
-        </div> <!-- End of Social COntainer-->
-
-      </div> <!-- End of row including About me and Social Containers-->
-
-    </div> <!-- End of Container wrapping Main Section-->
+    </div>
+    <!-- End of Container wrapping Main Section-->
     <div class="footer" style="margin-top:28.5%">
-        <nav class="navbar justify-content-center" style="background: linear-gradient(#939393, lightblue); width:100%;" >
+        <nav class="navbar justify-content-center" style="background: linear-gradient(#939393, lightblue); width:100%;">
             <p class="h5 fontP" href="#">&copy Sumathi Ganjam</p>
         </nav>
     </div>
     <!-- </div> -->
 
-    
+
 </body>
+
 </html>
