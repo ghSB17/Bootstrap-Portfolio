@@ -47,7 +47,10 @@ p {
 }
 .imgPortfolio {
     width: 90%;
-    height: 90%;
+    height: 100%;
+}
+.spacing {
+    height:30px;
 }
 .imgSocial {
     width: 70px;
