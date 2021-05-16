@@ -51,6 +51,7 @@ p {
 }
 .spacing {
     height:30px;
+    visibility: hidden;
 }
 .imgSocial {
     width: 70px;
