@@ -17,7 +17,7 @@ $(document).ready(function() {
                 
                 switch(imgAlt){
                         case "GitHub":
-                                        window.open("https://github.com/ghSB17?tab=repositories")
+                                        window.open("https://github.com/ghSB17")
                                         break;
                         case "LinkedIn":
                                         window.open("https://www.linkedin.com/in/sumathiganjam/")
